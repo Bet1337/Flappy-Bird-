@@ -90,7 +90,6 @@ Generate(array)
 bird = Bird(100, 250, 30, 30, WHITE, screen)
 
 
-placar= -1
 
 
 
@@ -116,7 +115,7 @@ while True:
         bird.collision(i)
         if array[len(array)-1].x < 200:
             Generate(array)
-            placar+=1
+       
 
         if len(array) > 8:
             array.pop(0)
