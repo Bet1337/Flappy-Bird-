@@ -8,8 +8,6 @@ pygame.init()
 
 WHITE = (255,255,255)
 BLACK = (0,0,0)
-RED = (250,0,0)
-
 
 
 SCREEN_WIDTH = 400
